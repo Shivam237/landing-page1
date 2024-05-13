@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+section{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url("image.png");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.shivam{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color: #bde9ec;
+
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #66b9fd;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #20eb8c;
+    transition: 0.5s ease;
+}
+nav ul li .home{
+    background-color: #9dc5c7;
+}
+
+.active{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.active h1{
+    font-size: 36px;
+    color: #cf1d1d;
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.active p{
+    font-size: 18px;
+    color: #85ffbc;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+.active .srs{
+    color: #cbd4d1;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #a45fc0;
+
+}
+.active .srs:hover{
+    background-color: #5ea5f7;
+    transition: 0.5s ease;
+}
